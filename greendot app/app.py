@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image
 
 # Load the image
-logo = Image.open('C:\\Users\\user\\Desktop\\greendot app\\logo.png')
+logo = Image.open('logo.png')
 
 # Display the logo with a custom width
 st.image(logo, width=500)  # Adjust the width as needed
